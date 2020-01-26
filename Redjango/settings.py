@@ -139,8 +139,8 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-AWS_ACCESS_KEY_ID = 'AKIA54YXT36HYB6A5OP4'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = '############'
+AWS_SECRET_ACCESS_KEY = '#####################'
 AWS_REGION = 'ap-northeast-2'
 AWS_STORAGE_BUCKET_NAME = 'django-onlineshop'
 AWS_S3_CUSTOM_DOMAIN = '%s.s3.%s.amazonaws.com' % (AWS_STORAGE_BUCKET_NAME, AWS_REGION)
@@ -166,8 +166,8 @@ LOGIN_REDIRECT_URL = '/'
 CART_ID = 'cart_in_session'
 
 # iamport API
-IAMPORT_KEY = '2194768660993688'
-IAMPORT_SECRET = 'ZFavSs27y0BiGqXktWiMAbGRfyNwzkkzZv4RX7Zw7BPN2M8wJrijDZbSxYp7jKGjfLbdSaJ0LzONmWj5'
+IAMPORT_KEY = '################'
+IAMPORT_SECRET = '################################5'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR,'static')
