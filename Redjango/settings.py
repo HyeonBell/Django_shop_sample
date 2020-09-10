@@ -95,7 +95,7 @@ DATABASES = {
         'NAME': 'onlineshop',
         'USER': 'onlineshop',
         'PASSWORD': 'onlineshop',
-        'HOST': 'onlineshop.csry7du5wssq.ap-northeast-2.rds.amazonaws.com',
+        'HOST': '-',
         'PORT': '3306',
     }
 }
